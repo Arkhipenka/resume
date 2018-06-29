@@ -63,15 +63,19 @@ a:hover{
 		transform: translateX(0%);
 	}
 	
-	33%{
+	20%{
+		transform: translateX(0%);
+	}
+	40%{
 		transform: translateX(-100%);
 	}
-	66%{
+	60%{
 		transform: translateX(-200%);
 	}
 	to{
 		transform: translateX(-300%);
 	}
+	
 }
 .slider-inner{
 	width:100%;
@@ -92,11 +96,9 @@ a:hover{
 	height: 100vh;
 	width: 100%;
 	margin:0;
-	animation: slider 7.5s infinite step-start;	
+	animation: slider 20s infinite step-start;	
 }
-.slide:hover{
-	animation-play-state: paused;
-}
+
 		
 
 .slide:nth-child(1){
